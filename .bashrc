@@ -29,4 +29,4 @@ man() {
     LESS_TERMCAP_us=$'\e[01;32m' \
     command man "$@"
 }
-alias config='/usr/bin/git --git-dir=/home/thoze/.cfg/ --work-tree=/home/thoze'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
